@@ -1,4 +1,12 @@
-## Alfresco Transformer from PDF to OCRd PDF
+## Alfresco Transformer from PDF/JPEG to OCRd PDF
+
+New content transformer created to convert JPEG to PDF with OCR.
+
+It is still WIP and some things need to be improved but works well as-is.
+JPEG dpi is hardcoded as 96dpi for now.
+Improvements are very much welcome.
+
+-----------
 
 Public Docker Images available in https://hub.docker.com/r/angelborroy/alfresco-tengine-ocr/tags
 
