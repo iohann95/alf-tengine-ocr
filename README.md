@@ -1,3 +1,12 @@
+## Alfresco Transformer from PDF/JPEG to OCRd PDF
+
+New content transformer created to convert JPEG to PDF with OCR.
+
+It is still WIP and some things need to be improved but works well as-is.
+JPEG dpi is hardcoded as 96dpi for now.
+Improvements are very much welcome.
+
+-----------
 ## Alfresco Transformer from PDF to OCRd PDF
 
 This project includes a simple Transformer for Alfresco from PDF to OCRd PDF to be used with **ACS Community 7.0+**
