@@ -17,6 +17,9 @@ RUN langs=$(echo $languages | tr "," "\n"); \
       apt-get install -y tesseract-ocr-$l; \
     done
 
+#Some JPEGs have weird Exif rotate data. Uncomment this to make img2pdf ignore that error.
+#RUN sed -i 's/layout_fun=layout_fun,/& rotation=img2pdf.Rotation.ifvalid,/g' /usr/lib/python3/dist-packages/ocrmypdf/_pipeline.py
+
 # Set default user information
 ARG GROUP_NAME=alfresco
 ARG GROUP_ID=1001
